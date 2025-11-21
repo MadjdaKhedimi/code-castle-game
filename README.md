@@ -184,6 +184,41 @@ I built a **choose-your-own-adventure game** for developers! Navigate through ma
 
 ---
 
+<<<<<<< HEAD
+=======
+## 🔗 Where to Host Your Game
+
+**Free Hosting Options:**
+
+### 1. **GitHub Pages** (Easiest! ⭐)
+```bash
+# Install gh-pages
+npm install --save-dev gh-pages
+
+# Add to package.json scripts:
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+
+# Deploy!
+npm run deploy
+```
+URL: `https://madjdakhedimi.github.io/code-castle-game`
+
+### 2. **Netlify** 
+- Drag & drop your `dist` folder after running `npm run build`
+- Or connect your GitHub repo for auto-deployment
+- Get instant HTTPS and custom domain support
+
+### 3. **Vercel**
+- Connect your GitHub repo
+- Auto-deploy on every push
+- Zero configuration needed!
+
+### 4. **CodeSandbox**
+- Import directly from GitHub
+- Edit and share live URLs instantly
+
+>>>>>>> 4e8150bf2a347c35a0901aa7ddd9cea610a60ef6
 ---
 
 ## 📁 Project Structure
@@ -300,4 +335,8 @@ Made with 💖 by Madjda Khedimi
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20&height=80&section=footer)
 
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> 4e8150bf2a347c35a0901aa7ddd9cea610a60ef6
