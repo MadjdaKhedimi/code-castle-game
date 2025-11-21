@@ -11,6 +11,10 @@
 
 **An interactive adventure game where developers explore magical castles, solve riddles, and collect legendary coding artifacts!** 🎮💖
 
+<a href="https://madjdakhedimi.github.io/code-castle-game">
+  <img src="./assets/game-demo.gif" alt="Code Castle Adventure Demo" width="700"/>
+</a>
+
 [🎮 Play Now](https://madjdakhedimi.github.io/code-castle-game) • [⭐ Star this Repo](https://github.com/MadjdaKhedimi/code-castle-game) • [🐛 Report Bug](https://github.com/MadjdaKhedimi/code-castle-game/issues)
 
 </div>
@@ -54,10 +58,10 @@ cd code-castle-game
 npm install
 
 # 4. Start your adventure!
-npm start
+npm run dev
 ```
 
-Open `http://localhost:3000` in your browser and start playing! 🎮
+Open `http://localhost:5173` in your browser and start playing! 🎮
 
 ### Building for Production
 
@@ -184,8 +188,6 @@ I built a **choose-your-own-adventure game** for developers! Navigate through ma
 
 ---
 
-<<<<<<< HEAD
-=======
 ## 🔗 Where to Host Your Game
 
 **Free Hosting Options:**
@@ -196,8 +198,7 @@ I built a **choose-your-own-adventure game** for developers! Navigate through ma
 npm install --save-dev gh-pages
 
 # Add to package.json scripts:
-"predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+"deploy": "vite build && gh-pages -d dist"
 
 # Deploy!
 npm run deploy
@@ -218,13 +219,14 @@ URL: `https://madjdakhedimi.github.io/code-castle-game`
 - Import directly from GitHub
 - Edit and share live URLs instantly
 
->>>>>>> 4e8150bf2a347c35a0901aa7ddd9cea610a60ef6
 ---
 
 ## 📁 Project Structure
 
 ```
 code-castle-game/
+├── assets/              # Game assets (images, GIFs)
+│   └── game-demo.gif   # Demo animation
 ├── public/              # Static files
 ├── src/
 │   ├── App.jsx         # Main app component
@@ -335,8 +337,4 @@ Made with 💖 by Madjda Khedimi
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20&height=80&section=footer)
 
-<<<<<<< HEAD
 </div>
-=======
-</div>
->>>>>>> 4e8150bf2a347c35a0901aa7ddd9cea610a60ef6
